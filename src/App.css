@@ -1,0 +1,68 @@
+/* App.css or any name you choose */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Example CSS, adjust as needed */
+.custom-background {
+    background-image: url('./assets/img/New Picture (4).png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  .matemasie-regular {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .playwrite-cu-unique {
+    font-family: 'Playwrite CU', cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fascinate-inline-regular {
+    font-family: 'Fascinate Inline', system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .whole{
+    text-align: center;
+  }
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+  }
+  .par{
+    margin-left: 150px;
+    margin-right: 150px;
+    
+    margin-bottom: 20px;
+  }
+  .footer-background {
+    margin: 50px 200px;
+    padding-top:20px ;
+    background-image: url('./assets/img/New Picture (15).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    
+  }
+  
